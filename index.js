@@ -1,19 +1,11 @@
 const Alexa = require('alexa-sdk');
 var appId = 'amzn1.ask.skill.860aea0d-6f37-46d0-8d64-cf711f74caa9';
 
-var mongoose = require('mongoose');
-    mongoose.connect('mongodb://localhost/test');
-    mongoose.Promise = global.Promise
-var Schema = mongoose.Schema;
-var RecipeSchema = new Schema({
-  title:  String,
-  steps: { type: [String], index: true }
-});
-var Recipe = mongoose.model('Rcipe', RecipeSchema);
+var Recipe = require('recipe_model')
 
 exports.handler = function(event, context, callback){
-    var alexa = Alexa.handler(event, context);
-        alexa.appId = appId;
+    var alexa = Alexa.handler(event, context    );
+        alexa.appId = appId; 
 
     alexa.registerHandlers({
         NewSession() {

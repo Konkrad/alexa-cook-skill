@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test');
+    mongoose.Promise = global.Promise;
+mongoose.connect('mongodb://easy:123456@ds137550.mlab.com:37550/bakk');
 var Schema = mongoose.Schema;
 
 var data = require('./recipes')
@@ -9,13 +10,16 @@ var RecipeSchema = new Schema({
   steps: { type: [String], index: true }
 });
 
-var Recipe = mongoose.model('Rcipe', RecipeSchema);
+var Recipe = mongoose.model('Recipe', RecipeSchema);
 
-data.recipes.forEach((recipe) => {
+Promise.all(data.recipes.map((recipe) => {
     const tmp = new Recipe({
         title: recipe.title,
         steps: recipe.steps
     })
-    tmp.save();
-})
+    return tmp.save();
+})).then(() => {
+    mongoose.disconnect();
+    console.log('done with populating mongodb');
+    })
 
