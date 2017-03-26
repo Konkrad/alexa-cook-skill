@@ -22,14 +22,15 @@ exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
     alexa.appId = appId;
     alexa.dynamoDBTableName = 'bakk';
-    alexa.registerHandlers(searchHandler, acceptHandler, recepieHandler);
+    alexa.registerHandlers(search, newSession, searchHandler, acceptHandler, recepieHandler);
     alexa.execute();
 };
 
 var newSession = {
     "NewSession"() {
+        console.log('new session')
         this.handler.state = 'SearchIntent';
-        this.emit('SearchIntent');
+        this.emit('search');
     },
     "AMAZON.StopIntent"() {
         console.log('Suche', 'stop')
@@ -41,34 +42,16 @@ var newSession = {
     "SessionEndedRequest"() {
         console.log('destroy session')
         this.emit(':tell', 'Sie sind fertig. Tschau')
+    },
+    "SearchIntent"() {
+        console.log('search on new session');
+        this.emit('search');
     }
 }
 
 var searchHandler = Alexa.CreateStateHandler(states.SEARCHMODE, {
-    "SearchIntent"() { 
-        const query = this.event.request.intent.slots.query.value
-        console.log('Eingabe', query)
-        if(!query) {
-            console.log('Suche', 'Nichts verstanden')
-            this.emit(':ask', 'Wie bitte?')
-            return;
-        }
-
-        const regex = new RegExp(query,"i");
-        mongoose.connect('mongodb://localhost/test');
-        const mongo = Recipe.find({title: regex})
-        mongo.exec().then((val) => {
-            mongoose.disconnect()
-            this.attributes["meal"] = val[0]._id;
-            this.handler.state = states.ACCEPTMODE;
-            console.log('Suche', 'Bestätigen')
-            this.emit(':ask', `Willst du ${val[0].title} zubereiten`);
-        })
-        .catch((err) => {
-            mongoose.disconnect()
-            console.log('Fehler', err)
-            this.emit(':tell', 'Leider gab es einen Fehler')
-        })
+    "SearchIntent"() {
+        this.emit('search');
     }, 
     "AMAZON.StopIntent"() {
         console.log('stop')
@@ -85,7 +68,7 @@ var acceptHandler = Alexa.CreateStateHandler(states.ACCEPTMODE, {
         console.log('YES')
         this.attributes["lastStep"] = 0
         
-        mongoose.connect('mongodb://localhost/test');
+        mongoose.connect(process.env.MONGODB);
         const mongo = Recipe.find({"_id": this.attributes["meal"]})
         mongo.exec().then((val) => {
             mongoose.disconnect();
@@ -110,9 +93,12 @@ var acceptHandler = Alexa.CreateStateHandler(states.ACCEPTMODE, {
 })
 
 var recepieHandler = Alexa.CreateStateHandler(states.COOKMODE, {
+    "SearchIntent"() {
+        this.emit('search');
+    },
     "AMAZON.RepeatIntent"() {
         console.log('Repeat')
-        mongoose.connect('mongodb://localhost/test');
+        mongoose.connect(process.env.MONGODB);
         const mongo = Recipe.find({"_id": this.attributes["meal"]})
         mongo.exec().then((val) => {
             mongoose.disconnect();
@@ -127,7 +113,7 @@ var recepieHandler = Alexa.CreateStateHandler(states.COOKMODE, {
         this.attributes["lastStep"] = step;
         console.log('set to ', step)
 
-        mongoose.connect('mongodb://localhost/test');
+        mongoose.connect(process.env.MONGODB);
         const mongo = Recipe.find({"_id": this.attributes["meal"]})
         mongo.exec().then((val) => {
             console.log('gefunden, next')
@@ -151,3 +137,32 @@ var recepieHandler = Alexa.CreateStateHandler(states.COOKMODE, {
         console.log('OMG COOKED')
     }
 })
+
+var search = {
+    'search'() {
+        console.log('enter searchintent in searchmode')
+        const query = this.event.request.intent.slots.query.value
+        console.log('Eingabe', query)
+        if(!query) {
+            console.log('Suche', 'Nichts verstanden')
+            this.emit(':ask', 'Wie bitte?')
+            return;
+        }
+
+        const regex = new RegExp(query,"i");
+        mongoose.connect(process.env.MONGODB);
+        const mongo = Recipe.find({title: regex})
+        mongo.exec().then((val) => {
+            mongoose.disconnect()
+            this.attributes["meal"] = val[0]._id;
+            this.handler.state = states.ACCEPTMODE;
+            console.log('Suche', 'Bestätigen')
+            this.emit(':ask', `Willst du ${val[0].title} zubereiten`);
+        })
+        .catch((err) => {
+            mongoose.disconnect()
+            console.log('Fehler', err)
+            this.emit(':tell', 'Leider gab es einen Fehler')
+        })
+    }
+}
