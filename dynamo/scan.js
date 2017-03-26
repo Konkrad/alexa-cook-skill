@@ -4,7 +4,7 @@ var dynamodb = new AWS.DynamoDB();
 var params = {
   ExpressionAttributeValues: {
    ":val": {
-     S: "kartoffel"
+     S: "käsespätzle"
     }
   }, 
   ExpressionAttributeNames: {
