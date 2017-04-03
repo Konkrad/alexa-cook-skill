@@ -9,13 +9,15 @@ module.exports = Alexa.CreateStateHandler(states.ACCEPTMODE, {
 
     getSteps(this.attributes["meal"])
       .then((steps) => {
-        if(steps.length === 0) {
+        if(steps.length == 0) {
           this.handler.state = states.SEARCHMODE;
+          console.log('step 0 recipe')
           this.emit(':tell', 'Das war es. Bis zum nächsten mal.')
-        }
-        console.log('step 1')
-        this.handler.state = states.COOKMODE;
-        this.emit(':tell', `Super. Es geht gleich los. Schritt 1: ${steps[0]}`)
+        } else {
+	        console.log('step 1')
+	        this.handler.state = states.COOKMODE;
+	        this.emit(':tell', `Super. Es geht gleich los. Schritt 1: ${steps[0]}`)
+	      }
       })
   },
   "AMAZON.NoIntent"() {
