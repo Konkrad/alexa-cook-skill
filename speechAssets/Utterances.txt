@@ -1,0 +1,29 @@
+SearchIntent Suche nach {query}
+SearchIntent Zeige mir Rezepte zu {query}
+SearchIntent suche {query}
+SearchIntent suche nach {query} Rezepten
+SearchIntent nach {query}
+SearchIntent nach {query} Rezepten
+AMAZON.NextIntent nächster Schritt
+AMAZON.NextIntent nach nächsten Schritt
+AMAZON.NextIntent weiter machen
+AMAZON.NextIntent wie geht es weiter
+AMAZON.NextIntent was soll ich tun
+AMAZON.NextIntent wie es weiter geht
+AMAZON.NextIntent und nun
+AMAZON.StopIntent aufhören
+AMAZON.StopIntent nichts
+AMAZON.StopIntent beenden
+AMAZON.RepeatIntent es zu wiederholen
+AMAZON.RepeatIntent den letzten Schritt zu wiederholen
+AMAZON.RepeatIntent was ich machen muss
+AMAZON.RepeatIntent was ich machen soll
+AMAZON.RepeatIntent bitte wiederholen
+AMAZON.RepeatIntent wie bitte
+AMAZON.RepeatIntent nach letzten Schritt
+AMAZON.HelpIntent wie funktioniert das
+AMAZON.HelpIntent um Hilfe bitten
+AMAZON.HelpIntent Erklärung
+AMAZON.HelpIntent um Hilfe
+AMAZON.HelpIntent erklären
+

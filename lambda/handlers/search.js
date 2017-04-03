@@ -14,4 +14,8 @@ module.exports = Alexa.CreateStateHandler(states.SEARCHMODE, {
     console.log('Unhandled searchHandler')
     this.emit('error');
   },
+  "AMAZON.HelpIntent"() {
+    console.log('HelpIntent searchHandler')
+    this.emit(':tell', 'Frage den Skill was du kochen möchtest.')
+  }
 })

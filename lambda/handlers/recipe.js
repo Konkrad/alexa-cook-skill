@@ -3,10 +3,6 @@ const states = require('./../states')
 const Alexa = require('alexa-sdk')
 
 module.exports =  Alexa.CreateStateHandler(states.COOKMODE, {
-  "SearchIntent"() {
-    console.log('SearchIntent recipeHandler')
-    this.emit('search');
-  },
   "AMAZON.RepeatIntent"() {
     console.log('RepeatIntent recipeHandler')
 
@@ -43,6 +39,10 @@ module.exports =  Alexa.CreateStateHandler(states.COOKMODE, {
   },
   "Unhandled"() {
     console.log('Unhandled recipeHandler')
-    this.emit('error');
+    this.emit(':ask', 'Ich habe dich leider nicht verstanden. Was möchtest du tun?');
+  },
+  "AMAZON.HelpIntent"() {
+    console.log('HelpIntent recipeHandler')
+    this.emit(':tell', 'Frage den Skill wie es weitergeht oder bitte ihn darum den letzten Schritt zu wiederholen.')
   }
 })

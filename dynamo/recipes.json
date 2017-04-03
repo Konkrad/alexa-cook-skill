@@ -95,6 +95,60 @@
         "Vom Herd ziehen und erneut 15 Minuten ruhen lassen.",
         "Erneut den Milchreis auf die Herdplatte geben und das Gericht bis zum ersten Blubbern köcheln lassen."
       ]
+    }, {
+      "title": "Hamburger",
+      "steps": []
     }
+    , {
+      "title": "Nudeln mit Pesto",
+      "steps": []
+    }, {
+      "title": "Kartoffeln",
+      "steps": []
+    }, {
+      "title": "Petersilienkartoffeln",
+      "steps": []
+    }, {
+      "title": "Kartofelspätzle",
+      "steps": []
+    }, {
+      "title": "Käsespätzle",
+      "steps": []
+    }, {
+      "title": "Curryreis",
+      "steps": []
+    }, {
+      "title": "Schweinsbraten",
+      "steps": []
+    }, {
+      "title": "Topfenstrudel",
+      "steps": []
+    }, {
+      "title": "Kartoffelsalat",
+      "steps": []
+    }, {
+      "title": "Erdäpfelsalat",
+      "steps": []
+    }, {
+      "title": "Tafelspitz",
+      "steps": []
+    }, {
+      "title": "Kaiserschmarrn",
+      "steps": []
+    }, {
+      "title": "Fiakergulasch",
+      "steps": []
+    }, {
+      "title": "Griesnockerl Suppe",
+      "steps": []
+    }, {
+      "title": "Käsenockerl Suppe",
+      "steps": []
+    }
+    , {
+      "title": "Gulasch",
+      "steps": []
+    }
+    
   ]
 }
