@@ -3,23 +3,23 @@ const Alexa = require('alexa-sdk')
 
 module.exports = Alexa.CreateStateHandler(states.SEARCHMODE, {
   "SearchIntent"() {
-    console.log('SearchIntent searchHandler')
+    console.log('searchHandler SearchIntent')
     this.emit('search');
   },
   "LaunchRequest"() {
-    console.log('LaunchRequest searchHandler');
+    console.log('searchHandler LaunchRequest');
     this.emit(':ask', 'Was möchtest du kochen?', 'Nenne bitte ein Gericht.');
   },
   "AMAZON.StopIntent"() {
-    console.log('StopIntent searchHandler')
+    console.log('searchHandler StopIntent')
     this.emit('stop')
   },
   "Unhandled"() {
-    console.log('Unhandled searchHandler')
+    console.log('searchHandler Unhandled')
     this.emit('error');
   },
   "AMAZON.HelpIntent"() {
-    console.log('HelpIntent searchHandler')
+    console.log('searchHandler HelpIntent')
     this.emit(':tell', 'Frage den Skill was du kochen möchtest.')
   }
 })

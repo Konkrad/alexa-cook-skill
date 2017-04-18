@@ -2,32 +2,32 @@ const states = require('./../states')
 
 module.exports = {
   "NewSession"() {
-    console.log('new session')
+    console.log('newSessionHandler NewSession')
     this.handler.state = 'SearchIntent';
     this.emit('search');
   },
   "LaunchRequest"() {
-    console.log('new request');
+    console.log('newSessionHandler LaunchRequest');
     this.emit(':ask', 'Willkommen. Was möchtest du kochen?', 'Nenne bitte ein Gericht.');
   },
   "AMAZON.StopIntent"() {
-    console.log('newSession', 'stop')
+    console.log('newSessionHandler StopIntent')
     this.emit('stop')
   },
   "Unhandled"() {
-    console.log('Unhandled newSession')
+    console.log('newSessionHandler Unhandled')
     this.emit('error');
   },
   "SessionEndedRequest"() {
-    console.log('SessionEndedRequest newSession')
+    console.log('newSessionHandler SessionEndedRequest')
     this.emit(':tell', 'Du bist fertig. Bis zum nächsten mal.')
   },
   "SearchIntent"() {
-    console.log('SearchIntent newSession');
+    console.log('newSessionHandler SearchIntent');
     this.emit('search');
   },
   "AMAZON.HelpIntent"() {
-    console.log('HelpIntent newSession')
+    console.log('newSessionHandler HelpIntent')
     this.emit(':tell', 'Nenne das Gericht das du kochen möchtest beim Namen')
   }
 }
