@@ -39,7 +39,7 @@ module.exports =  Alexa.CreateStateHandler(states.COOKMODE, {
   },
   "Unhandled"() {
     console.log('Unhandled recipeHandler')
-    this.emit(':ask', 'Ich habe dich leider nicht verstanden. Was möchtest du tun?');
+    this.emit(':ask', 'Ich habe dich leider nicht verstanden. Was möchtest du tun?', 'Sag was du tun möchtest.');
   },
   "AMAZON.HelpIntent"() {
     console.log('HelpIntent recipeHandler')

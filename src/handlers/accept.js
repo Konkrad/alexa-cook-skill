@@ -23,7 +23,7 @@ module.exports = Alexa.CreateStateHandler(states.ACCEPTMODE, {
   "AMAZON.NoIntent"() {
     console.log('NoIntent acceptHandler')
     this.handler.state = states.SEARCHMODE;
-    this.emit(':ask', 'Ok, Was möchtest du kochen?')
+    this.emit(':ask', 'Ok, Was möchtest du kochen?', 'Nenne bitte ein Gericht.')
   },
   "Unhandled"() {
     console.log('Unhandled acceptHandler')

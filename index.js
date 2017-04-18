@@ -23,7 +23,7 @@ exports.handler = function(event, context, callback){
                     mongoose.disconnect();
                 })
             } else {
-                this.emit(':ask', 'Wie bitte?')
+                this.emit(':ask', 'Wie bitte?', 'Nenne bitte ein Gericht.')
                 mongoose.disconnect();
             }
         }

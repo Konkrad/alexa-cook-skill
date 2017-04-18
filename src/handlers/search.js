@@ -8,7 +8,7 @@ module.exports = Alexa.CreateStateHandler(states.SEARCHMODE, {
   },
   "LaunchRequest"() {
     console.log('LaunchRequest searchHandler');
-    this.emit(':ask', 'Was möchtest du kochen?');
+    this.emit(':ask', 'Was möchtest du kochen?', 'Nenne bitte ein Gericht.');
   },
   "AMAZON.StopIntent"() {
     console.log('StopIntent searchHandler')

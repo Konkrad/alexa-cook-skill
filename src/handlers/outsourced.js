@@ -8,7 +8,7 @@ module.exports = {
     console.log('Eingabe', query)
     if (!query) {
       console.log('Suche', 'Nichts verstanden')
-      this.emit(':ask', 'Wie bitte?')
+      this.emit(':ask', 'Wie bitte?', 'Nenne bitte ein Gericht')
       return;
     }
 
@@ -17,12 +17,12 @@ module.exports = {
         this.attributes["meal"] = recipe.id
         this.handler.state = states.ACCEPTMODE;
         console.log('accept recipe')
-        this.emit(':ask', `Willst du ${recipe.name} zubereiten`);
+        this.emit(':ask', `Willst du ${recipe.name} zubereiten`, 'Sage Ja oder Nein');
       })
       .catch((err) => {
         console.log('error', err)
         this.handler.state = states.SEARCHMODE;
-        this.emit(':ask', 'Ich habe dich leider nicht verstanden. Was möchtest du gerne kochen?')
+        this.emit(':ask', 'Ich habe dich leider nicht verstanden. Was möchtest du gerne kochen?', 'Nenne bitte ein Gericht.')
       })
   },
   'stop'() {
@@ -31,6 +31,6 @@ module.exports = {
   },
   'error'() {
     this.handler.state = states.SEARCHMODE;
-    this.emit(':ask', 'Es ist leider ein Fehler passiert. Wiederhole deine Eingabe!')
+    this.emit(':ask', 'Es ist leider ein Fehler passiert. Wiederhole deine Eingabe!', 'Sag was du tun möchtest.')
   }
 }

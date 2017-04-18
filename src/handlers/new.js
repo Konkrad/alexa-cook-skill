@@ -8,7 +8,7 @@ module.exports = {
   },
   "LaunchRequest"() {
     console.log('new request');
-    this.emit(':ask', 'Willkommen. Was möchtest du kochen?');
+    this.emit(':ask', 'Willkommen. Was möchtest du kochen?', 'Nenne bitte ein Gericht.');
   },
   "AMAZON.StopIntent"() {
     console.log('newSession', 'stop')
