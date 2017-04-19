@@ -1,6 +1,5 @@
 module.exports = {
   findRecipe(value) {
-    console.log('get value for', value.toLowerCase())
     const AWS = require('aws-sdk')
     const dynamodb = new AWS.DynamoDB();
     const params = {
