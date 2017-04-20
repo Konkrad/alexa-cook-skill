@@ -8,7 +8,7 @@ module.exports = {
     console.log('outSourcedHanlder searchIntent query ', query)
     if (!query) {
       console.log('outSourcedHanlder searchIntent empty')
-      this.emit(':ask', 'Wie bitte?', 'Nenne bitte ein Gericht')
+      this.emit(':ask', 'Ich habe dich leider nicht verstanden. Was möchtest du gerne kochen?', 'Nenne bitte ein Gericht.')
       return;
     }
 
