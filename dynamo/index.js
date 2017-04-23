@@ -1,5 +1,8 @@
 var AWS = require('aws-sdk')
-var data = require('./recipes').recipes
+AWS.config.update({
+    region: 'eu-west-1'
+});
+var data = require('../recipes').recipes
 var dynamodb = new AWS.DynamoDB();
 
 Promise.all(data.map((recipe, key) => {
