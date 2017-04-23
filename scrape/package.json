@@ -1,0 +1,10 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.9.3",
+    "request": "^2.81.0"
+  }
+}
