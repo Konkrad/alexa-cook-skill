@@ -7,7 +7,7 @@ var RecipeSchema = new Schema({
   steps: { type: [String], index: true }
 });
 
-var Recipe = mongoose.model('Rcipe', RecipeSchema);
+var Recipe = mongoose.model('Recipe', RecipeSchema);
 
 const query = "schnitzel"
 const regex = new RegExp(query,"i");

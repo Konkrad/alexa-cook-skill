@@ -10,14 +10,7 @@ var Recipe = mongoose.model('Recipe', RecipeSchema);
 
 const query = "schnitzel"
 const regex = new RegExp(query,"i");
-//const recipe = Recipe.find({title: regex})
-
-// recipe.exec().then((val) => {
-//     console.log(val[0]._id)
-//     mongoose.disconnect();
-// })
-
-const id = Recipe.find({"_id": "58c5b93ba201dc3778c606f5"})
+const id = Recipe.find({title: regex})
 
 id.exec().then((val) => {
     console.log(val[0].steps[0]);

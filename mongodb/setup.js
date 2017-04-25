@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
     mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://easy:123456@ds137550.mlab.com:37550/bakk');
+mongoose.connect('mongodb://localhost/test');
 var Schema = mongoose.Schema;
 
-var data = require('./recipes')
+var data = require('../recipes')
 
 var RecipeSchema = new Schema({
   title:  String,

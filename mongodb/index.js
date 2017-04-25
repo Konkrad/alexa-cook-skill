@@ -1,7 +1,7 @@
 const Alexa = require('alexa-sdk');
 var appId = 'amzn1.ask.skill.860aea0d-6f37-46d0-8d64-cf711f74caa9';
 
-var Recipe = require('recipe_model')
+var Recipe = require('./recipe_model')
 
 exports.handler = function(event, context, callback){
     var alexa = Alexa.handler(event, context    );
