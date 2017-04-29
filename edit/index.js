@@ -34,10 +34,10 @@ app.get('/', function (req, res) {
             })
         })
         .then((obj) => {
-            const id = obj.id.replace("#", "%23");
+            const id = obj.id.split('#').join('%23');
             return Promise.resolve(`
                 <div>
-                    <h1>${obj.id}<h1>
+                    <h1>${obj.id}</h1>
                     <audio controls>
                         <source src="/files/${id}.wave" type="audio/wave">
                     </audio>
@@ -46,7 +46,6 @@ app.get('/', function (req, res) {
                     <h2>transkript</h2>
                     <input id=${id} type='text' />
                     <a href="javascript: submitform.bind(this, '${id}')()">update</a>
-                    </form>
                 </div>
             `)
         })
@@ -61,7 +60,7 @@ app.get('/', function (req, res) {
                 <head>
                     <script>
                         function submitform(id) {
-                            id = id.replace("#", "%23")
+                            id = id.split('#').join('%23')
                             fetch("/update/" + id, {
                             method: "POST",
                             headers: {
