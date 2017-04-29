@@ -1,0 +1,134 @@
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 72082aed-2bf1-11e7-b2c8-09a95992e26e Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:02:47.580Z	72082aed-2bf1-11e7-b2c8-09a95992e26e	searchHandler LaunchRequest
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 72082aed-2bf1-11e7-b2c8-09a95992e26e
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 72082aed-2bf1-11e7-b2c8-09a95992e26e	Duration: 1032.93 ms	Billed Duration: 1100 ms 	Memory Size: 128 MB	Max Memory Used: 33 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 75f3e404-2bf1-11e7-a40d-e93152393353 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:02:52.437Z	75f3e404-2bf1-11e7-a40d-e93152393353	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:02:52.437Z	75f3e404-2bf1-11e7-a40d-e93152393353	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:02:52.437Z	75f3e404-2bf1-11e7-a40d-e93152393353	outSourcedHanlder searchIntent query  tafelspitz
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:02:52.618Z	75f3e404-2bf1-11e7-a40d-e93152393353	outSourcedHanlder searchIntent foundRecipe
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 75f3e404-2bf1-11e7-a40d-e93152393353
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 75f3e404-2bf1-11e7-a40d-e93152393353	Duration: 199.21 ms	Billed Duration: 200 ms 	Memory Size: 128 MB	Max Memory Used: 33 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 78aac722-2bf1-11e7-a4d0-67c9f5995543 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:02:56.972Z	78aac722-2bf1-11e7-a4d0-67c9f5995543	YesIntent acceptHandler
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 78aac722-2bf1-11e7-a4d0-67c9f5995543
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 78aac722-2bf1-11e7-a4d0-67c9f5995543	Duration: 65.34 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 34 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 88ff3a5e-2bf1-11e7-91b1-4fb15e966080 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:03:24.672Z	88ff3a5e-2bf1-11e7-91b1-4fb15e966080	searchHandler LaunchRequest
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 88ff3a5e-2bf1-11e7-91b1-4fb15e966080
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 88ff3a5e-2bf1-11e7-91b1-4fb15e966080	Duration: 304.24 ms	Billed Duration: 400 ms 	Memory Size: 128 MB	Max Memory Used: 34 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 8c36be62-2bf1-11e7-a12f-ebef8d4f5d13 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:03:29.836Z	8c36be62-2bf1-11e7-a12f-ebef8d4f5d13	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:03:29.836Z	8c36be62-2bf1-11e7-a12f-ebef8d4f5d13	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:03:29.836Z	8c36be62-2bf1-11e7-a12f-ebef8d4f5d13	outSourcedHanlder searchIntent query  griesnockerl suppe
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:03:29.916Z	8c36be62-2bf1-11e7-a12f-ebef8d4f5d13	outSourcedHanlder searchIntent foundRecipe
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 8c36be62-2bf1-11e7-a12f-ebef8d4f5d13
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 8c36be62-2bf1-11e7-a12f-ebef8d4f5d13	Duration: 153.49 ms	Billed Duration: 200 ms 	Memory Size: 128 MB	Max Memory Used: 34 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 8f673e4a-2bf1-11e7-b484-89a5f2ec7a2a Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:03:35.139Z	8f673e4a-2bf1-11e7-b484-89a5f2ec7a2a	YesIntent acceptHandler
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 8f673e4a-2bf1-11e7-b484-89a5f2ec7a2a
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 8f673e4a-2bf1-11e7-b484-89a5f2ec7a2a	Duration: 202.70 ms	Billed Duration: 300 ms 	Memory Size: 128 MB	Max Memory Used: 34 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: cb9e6e87-2bf1-11e7-9eb6-5b1bb8ea376b Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:05:16.506Z	cb9e6e87-2bf1-11e7-9eb6-5b1bb8ea376b	searchHandler LaunchRequest
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: cb9e6e87-2bf1-11e7-9eb6-5b1bb8ea376b
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: cb9e6e87-2bf1-11e7-9eb6-5b1bb8ea376b	Duration: 358.53 ms	Billed Duration: 400 ms 	Memory Size: 128 MB	Max Memory Used: 35 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: ce52b935-2bf1-11e7-8b62-6790821a4dd3 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:05:20.680Z	ce52b935-2bf1-11e7-8b62-6790821a4dd3	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:05:20.680Z	ce52b935-2bf1-11e7-8b62-6790821a4dd3	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:05:20.680Z	ce52b935-2bf1-11e7-8b62-6790821a4dd3	outSourcedHanlder searchIntent query  fiakergulasch
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:05:20.747Z	ce52b935-2bf1-11e7-8b62-6790821a4dd3	outSourcedHanlder searchIntent foundRecipe
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: ce52b935-2bf1-11e7-8b62-6790821a4dd3
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: ce52b935-2bf1-11e7-8b62-6790821a4dd3	Duration: 68.36 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 35 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: d0c0f9fa-2bf1-11e7-962d-9d13f1d5eca2 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:05:24.838Z	d0c0f9fa-2bf1-11e7-962d-9d13f1d5eca2	YesIntent acceptHandler
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: d0c0f9fa-2bf1-11e7-962d-9d13f1d5eca2
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: d0c0f9fa-2bf1-11e7-962d-9d13f1d5eca2	Duration: 217.37 ms	Billed Duration: 300 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: e8e6c5bc-2bf1-11e7-9a0b-b36e61c7e4fb Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:05.531Z	e8e6c5bc-2bf1-11e7-9a0b-b36e61c7e4fb	searchHandler LaunchRequest
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: e8e6c5bc-2bf1-11e7-9a0b-b36e61c7e4fb
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: e8e6c5bc-2bf1-11e7-9a0b-b36e61c7e4fb	Duration: 252.83 ms	Billed Duration: 300 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: ebb660ad-2bf1-11e7-a33e-b35a0f02b8ed Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:09.990Z	ebb660ad-2bf1-11e7-a33e-b35a0f02b8ed	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:09.990Z	ebb660ad-2bf1-11e7-a33e-b35a0f02b8ed	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:09.990Z	ebb660ad-2bf1-11e7-a33e-b35a0f02b8ed	outSourcedHanlder searchIntent query  kaiserschmarrn
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:10.048Z	ebb660ad-2bf1-11e7-a33e-b35a0f02b8ed	outSourcedHanlder searchIntent foundRecipe
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: ebb660ad-2bf1-11e7-a33e-b35a0f02b8ed
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: ebb660ad-2bf1-11e7-a33e-b35a0f02b8ed	Duration: 58.93 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: ee0fb9d6-2bf1-11e7-ab80-d3aa8b218cbe Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:13.927Z	ee0fb9d6-2bf1-11e7-ab80-d3aa8b218cbe	YesIntent acceptHandler
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: ee0fb9d6-2bf1-11e7-ab80-d3aa8b218cbe
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: ee0fb9d6-2bf1-11e7-ab80-d3aa8b218cbe	Duration: 64.46 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: f39fad4c-2bf1-11e7-9cbe-4b6639e3cef6 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:23.350Z	f39fad4c-2bf1-11e7-9cbe-4b6639e3cef6	searchHandler StopIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:23.350Z	f39fad4c-2bf1-11e7-9cbe-4b6639e3cef6	outSourcedHanlder stopIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: f39fad4c-2bf1-11e7-9cbe-4b6639e3cef6
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: f39fad4c-2bf1-11e7-9cbe-4b6639e3cef6	Duration: 149.93 ms	Billed Duration: 200 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: f85df87f-2bf1-11e7-9467-bd10e0c3cc5d Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:31.317Z	f85df87f-2bf1-11e7-9467-bd10e0c3cc5d	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:31.317Z	f85df87f-2bf1-11e7-9467-bd10e0c3cc5d	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:31.317Z	f85df87f-2bf1-11e7-9467-bd10e0c3cc5d	outSourcedHanlder searchIntent query  kaiserschmarrn
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:31.448Z	f85df87f-2bf1-11e7-9467-bd10e0c3cc5d	outSourcedHanlder searchIntent foundRecipe
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: f85df87f-2bf1-11e7-9467-bd10e0c3cc5d
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: f85df87f-2bf1-11e7-9467-bd10e0c3cc5d	Duration: 230.83 ms	Billed Duration: 300 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: fb70b66d-2bf1-11e7-a575-6b2361af4f24 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:06:36.373Z	fb70b66d-2bf1-11e7-a575-6b2361af4f24	YesIntent acceptHandler
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: fb70b66d-2bf1-11e7-a575-6b2361af4f24
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: fb70b66d-2bf1-11e7-a575-6b2361af4f24	Duration: 84.11 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 14619a0c-2bf2-11e7-8820-d736d3b7a432 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:18.450Z	14619a0c-2bf2-11e7-8820-d736d3b7a432	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:18.450Z	14619a0c-2bf2-11e7-8820-d736d3b7a432	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:18.450Z	14619a0c-2bf2-11e7-8820-d736d3b7a432	outSourcedHanlder searchIntent query  spaghetti bolognese
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:18.516Z	14619a0c-2bf2-11e7-8820-d736d3b7a432	outSourcedHanlder searchIntent foundRecipe
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 14619a0c-2bf2-11e7-8820-d736d3b7a432
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 14619a0c-2bf2-11e7-8820-d736d3b7a432	Duration: 295.51 ms	Billed Duration: 300 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 175c6315-2bf2-11e7-8936-d78d0925a0e3 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:23.220Z	175c6315-2bf2-11e7-8936-d78d0925a0e3	acceptHandler NoIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 175c6315-2bf2-11e7-8936-d78d0925a0e3
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 175c6315-2bf2-11e7-8936-d78d0925a0e3	Duration: 82.38 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 21ee3acc-2bf2-11e7-996e-45b7cc942cb3 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:41.156Z	21ee3acc-2bf2-11e7-996e-45b7cc942cb3	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:41.156Z	21ee3acc-2bf2-11e7-996e-45b7cc942cb3	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:41.156Z	21ee3acc-2bf2-11e7-996e-45b7cc942cb3	outSourcedHanlder searchIntent query  pizza
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:41.228Z	21ee3acc-2bf2-11e7-996e-45b7cc942cb3	outSourcedHanlder searchIntent error  nothing found
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 21ee3acc-2bf2-11e7-996e-45b7cc942cb3
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 21ee3acc-2bf2-11e7-996e-45b7cc942cb3	Duration: 278.68 ms	Billed Duration: 300 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 2710505b-2bf2-11e7-a20a-415bbeb6ad4b Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:49.559Z	2710505b-2bf2-11e7-a20a-415bbeb6ad4b	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:49.559Z	2710505b-2bf2-11e7-a20a-415bbeb6ad4b	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:49.559Z	2710505b-2bf2-11e7-a20a-415bbeb6ad4b	outSourcedHanlder searchIntent query  undefined
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:49.559Z	2710505b-2bf2-11e7-a20a-415bbeb6ad4b	outSourcedHanlder searchIntent empty
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 2710505b-2bf2-11e7-a20a-415bbeb6ad4b
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 2710505b-2bf2-11e7-a20a-415bbeb6ad4b	Duration: 0.76 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 2ab8bedd-2bf2-11e7-9e0f-bf8e36d5aa1d Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:55.695Z	2ab8bedd-2bf2-11e7-9e0f-bf8e36d5aa1d	searchHandler StopIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:07:55.695Z	2ab8bedd-2bf2-11e7-9e0f-bf8e36d5aa1d	outSourcedHanlder stopIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 2ab8bedd-2bf2-11e7-9e0f-bf8e36d5aa1d
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 2ab8bedd-2bf2-11e7-9e0f-bf8e36d5aa1d	Duration: 61.69 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 2f532f22-2bf2-11e7-816a-7b812a40131f Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:03.696Z	2f532f22-2bf2-11e7-816a-7b812a40131f	searchHandler LaunchRequest
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 2f532f22-2bf2-11e7-816a-7b812a40131f
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 2f532f22-2bf2-11e7-816a-7b812a40131f	Duration: 273.97 ms	Billed Duration: 300 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 3247ddbb-2bf2-11e7-b576-ed44842ff388 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:08.382Z	3247ddbb-2bf2-11e7-b576-ed44842ff388	searchHandler StopIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:08.382Z	3247ddbb-2bf2-11e7-b576-ed44842ff388	outSourcedHanlder stopIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 3247ddbb-2bf2-11e7-b576-ed44842ff388
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 3247ddbb-2bf2-11e7-b576-ed44842ff388	Duration: 68.95 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 36 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 3ea12e76-2bf2-11e7-aff7-59958c34180c Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:29.336Z	3ea12e76-2bf2-11e7-aff7-59958c34180c	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:29.336Z	3ea12e76-2bf2-11e7-aff7-59958c34180c	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:29.336Z	3ea12e76-2bf2-11e7-aff7-59958c34180c	outSourcedHanlder searchIntent query  undefined
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:29.336Z	3ea12e76-2bf2-11e7-aff7-59958c34180c	outSourcedHanlder searchIntent empty
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 3ea12e76-2bf2-11e7-aff7-59958c34180c
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 3ea12e76-2bf2-11e7-aff7-59958c34180c	Duration: 254.27 ms	Billed Duration: 300 ms 	Memory Size: 128 MB	Max Memory Used: 37 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 42e34567-2bf2-11e7-a7de-634d77b0d7e7 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:36.246Z	42e34567-2bf2-11e7-a7de-634d77b0d7e7	searchHandler SearchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:36.246Z	42e34567-2bf2-11e7-a7de-634d77b0d7e7	outSourcedHanlder searchIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:36.246Z	42e34567-2bf2-11e7-a7de-634d77b0d7e7	outSourcedHanlder searchIntent query  undefined
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:36.246Z	42e34567-2bf2-11e7-a7de-634d77b0d7e7	outSourcedHanlder searchIntent empty
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 42e34567-2bf2-11e7-a7de-634d77b0d7e7
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 42e34567-2bf2-11e7-a7de-634d77b0d7e7	Duration: 0.69 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 37 MB
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m START RequestId: 46531736-2bf2-11e7-8096-214f4c624050 Version: $LATEST
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:42.009Z	46531736-2bf2-11e7-8096-214f4c624050	searchHandler StopIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m 2017-04-28T09:08:42.009Z	46531736-2bf2-11e7-8096-214f4c624050	outSourcedHanlder stopIntent
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m END RequestId: 46531736-2bf2-11e7-8096-214f4c624050
+[32m/aws/lambda/bakk[0m [36m2017/04/28/[$LATEST]0beda283e1c141c5813f02d16b8e0aa2[0m REPORT RequestId: 46531736-2bf2-11e7-8096-214f4c624050	Duration: 53.38 ms	Billed Duration: 100 ms 	Memory Size: 128 MB	Max Memory Used: 37 MB
