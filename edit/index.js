@@ -12,6 +12,7 @@ const AlexaSchema = new Schema({
 	id: { type: String, unique: true },
 	alexa: String,
     transkript: String,
+    dialekt: String,
 	body: Object
 });
 const Alexa = mongoose.model('Alexa', AlexaSchema);
@@ -46,6 +47,9 @@ app.get('/', function (req, res) {
                     <h2>transkript</h2>
                     <input id=${id} type='text' />
                     <a href="javascript: submitform.bind(this, '${id}')()">update</a>
+                    <h2>dialekt</h2>
+                    <input id=${id+'dia'} type='text' />
+                    <a href="javascript: submitform.bind(this, '${id+'dia'}', 'dialekt')()">update</a>
                 </div>
             `)
         })
@@ -59,8 +63,12 @@ app.get('/', function (req, res) {
             <html>
                 <head>
                     <script>
-                        function submitform(id) {
+                        function submitform(id, dia) {
                             id = id.split('#').join('%23')
+                            let type = 'transkript'
+                            if(dia) {
+                                type = 'dialekt'
+                            }
                             fetch("/update/" + id, {
                             method: "POST",
                             headers: {
@@ -68,7 +76,7 @@ app.get('/', function (req, res) {
                                 'Content-Type': 'application/json'
                             },
                             body: JSON.stringify({
-                                transkript: document.getElementById(id).value
+                                [type]: document.getElementById(id).value
                             })
                             });
                         }
@@ -81,9 +89,21 @@ app.get('/', function (req, res) {
 })
 
 app.post('/update/:id', jsonParser, function(req, res) {
-    Alexa.findOneAndUpdate({id: req.params.id}, {transkript: req.body.transkript})
+    let type = 'transkript'
+    let value = req.body.transkript
+    if(req.body.dialekt) {
+        type = 'dialekt'
+        value = req.body.dialekt
+    }
+
+    let id = req.params.id
+    if(id.endsWith("dia")) {
+        id = id.substring(0, id.length -3)
+    }
+    console.log(type, value)
+    Alexa.findOneAndUpdate({id: id}, {[type]: value})
     .then((obj) => {
-        console.log('updated', req.params.id)
+        console.log('updated', id)
         res.send();
     })
 })
