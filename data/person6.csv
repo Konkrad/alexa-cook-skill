@@ -1,0 +1,33 @@
+id,zeit,cluster,reference,hypothese,dialekt,wer,länge_ref,sended
+1493370137608,2017-04-28T09:02:17.608Z,0,alexa wie ist was ist die hauptstadt von österreich,alexa wie ist was ist die hauptstadt von österreich,,0.0000,9,
+1493370167775,2017-04-28T09:02:47.775Z,1,alexa starte küchenmeister,alexa starte küchenmeister,,0.0000,3,This request was sent to bakk
+1493370172844,2017-04-28T09:02:52.844Z,2,tafelspitz,nach tafelspitz,,1.0000,1,This request was sent to bakk
+1493370177185,2017-04-28T09:02:57.185Z,3,ja,ja,,0.0000,1,This request was sent to bakk
+1493370204810,2017-04-28T09:03:24.810Z,4,starte küchenmeister,starte küchenmeister,,0.0000,2,This request was sent to bakk
+1493370201450,2017-04-28T09:03:21.450Z,4,alexa starte küchenmeister,alexa,,0.6667,3,
+1493370207684,2017-04-28T09:03:27.684Z,5,grießnockerl suppe,,,1.0000,2,
+1493370210118,2017-04-28T09:03:30.118Z,5,griesnockerl suppe,nach griesnockerl suppe,,0.5000,2,This request was sent to bakk
+1493370215452,2017-04-28T09:03:35.452Z,6,ja,ja,,0.0000,1,This request was sent to bakk
+1493370252085,2017-04-28T09:04:12.085Z,7,alexa wie bereite ich fiakergulasch gulasch zu küchenmeister,alexa wie bereite ich vier k. gullash gulasch zu küchenmeister,,0.3750,8,
+1493370264701,2017-04-28T09:04:24.701Z,8,alexa wie bereite ich fiaker gulasch mit küchenmeister zu,alexa wie bereite ich fiaker gulasch mit küchenmeister zu,,0.0000,9,
+1493370272159,2017-04-28T09:04:32.159Z,9,alexa küchenmeister,alexa küchenmeister,,0.0000,2,
+1493370308398,2017-04-28T09:05:08.398Z,10,alexa ich möcht mit küchenmeister etwas kochen,alexa ich möcht mit küchenmeister etwas kochen,,0.0000,7,
+1493370316648,2017-04-28T09:05:16.648Z,11,alexa starte küchenmeister,alexa starte küchenmeister,,0.0000,3,This request was sent to bakk
+1493370320949,2017-04-28T09:05:20.949Z,12,fiakergulasch,nach fiakergulasch,,1.0000,1,This request was sent to bakk
+1493370325131,2017-04-28T09:05:25.131Z,13,ja,ja,,0.0000,1,This request was sent to bakk
+1493370344185,2017-04-28T09:05:44.185Z,14,alexa ich möchte kaiserschmarrn mit mit küchenmeister kochen,alexa ich möchte kaiserschmarrn mit mit küchenmeister kochen,,0.0000,8,
+1493370355088,2017-04-28T09:05:55.088Z,15,alexa zeig mir mit küchenmeister wie man kaiserschmarrn zubereitet,alexa zeig mir mit küchenmeister wie man kaiserschmarrn zubereitet,,0.0000,9,
+1493370365668,2017-04-28T09:06:05.668Z,16,alexa starte küchenmeister,alexa start die küchenmeister,,0.6667,3,This request was sent to bakk
+1493370370195,2017-04-28T09:06:10.195Z,17,kaiserschmarrn,nach kaiserschmarrn,,1.0000,1,This request was sent to bakk
+1493370374130,2017-04-28T09:06:14.130Z,18,ja,ja,,0.0000,1,This request was sent to bakk
+1493370391659,2017-04-28T09:06:31.659Z,19,alexa frag küchenmeister wie man kaiserschmarrn zubereitet,alexa frag küchenmeister wie man kaiserschmarrn zubereitet,,0.0000,7,This request was sent to bakk
+1493370396617,2017-04-28T09:06:36.617Z,20,ja,ja,,0.0000,1,This request was sent to bakk
+1493370405633,2017-04-28T09:06:45.633Z,21,alexa zeig mir mit küchenmeister wie man,alexa,,0.8571,7,
+1493370408823,2017-04-28T09:06:48.823Z,21,zeig mir mit küchenmeister wie man,zeig mir mit küchenmeister beamer an,,0.3333,6,
+1493370438684,2017-04-28T09:07:18.684Z,23,alexa frag küchenmeister wie man spaghetti bolognese zubereitet,alexa frag küchenmeister wie man spaghetti bolognese zubereitet,,0.0000,8,This request was sent to bakk
+1493370443449,2017-04-28T09:07:23.449Z,24,nein,nein,,0.0000,1,This request was sent to bakk
+1493370461412,2017-04-28T09:07:41.412Z,25,alexa frag küchenmeister wie man pizza,alexa frag küchenmeister wie man pizza,,0.0000,6,This request was sent to bakk
+1493370469731,2017-04-28T09:07:49.731Z,26,pizza,pizza,,0.0000,1,This request was sent to bakk
+1493370483840,2017-04-28T09:08:03.840Z,27,alexa frag küchenmeister,alexa frag küchenmeister,,0.0000,3,This request was sent to bakk
+1493370509538,2017-04-28T09:08:29.538Z,28,alexa frag küchenmeister wie man,alexa frag küchenmeister wie man,,0.0000,5,This request was sent to bakk
+1493370516420,2017-04-28T09:08:36.420Z,29,nudelsuppe,nudelsuppe,,0.0000,1,This request was sent to bakk

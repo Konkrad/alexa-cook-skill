@@ -1,0 +1,35 @@
+id	zeit	cluster	reference	hypothese	dialekt	wer	länge_ref	sended
+1493298603080	2017-04-27T13:10:03.080Z	0	alexa wie ist den das wetter heute in salzburg	alexa	alexa wie is den das wetter heute in salzburg	0.8889	9	
+1493298605300	2017-04-27T13:10:05.300Z	0	alexa wie ist den das wetter heute in salzburg	wie ist das wetter heute in salzburg	alexa wie is den das wetter heute in salzburg	0.2222	9	
+1493298674553	2017-04-27T13:11:14.553Z	1	alexa was ist den die hauptstadt von österreich	alexa was ist die hauptstadt von österreich	alexa wos isn die hauptstadt von österreich	0.1250	8	
+1493298716088	2017-04-27T13:11:56.088Z	2	alexa ich bräuchte bitte vom küchenmeister ein rezept vom tafelspitz	alexa		0.9000	10	
+1493298721064	2017-04-27T13:12:01.064Z	2	ich bräuchte bitte vom küchenmeister ein rezept von tafelspitz	ich bräuchte bitte vom küchenmeister ein rezept von tafelspitz		0.0000	9	
+1493298772249	2017-04-27T13:12:52.249Z	3	alexa kennst du einen küchenmeister	alexa		0.8000	5	
+1493298774911	2017-04-27T13:12:54.911Z	3	alexa kennst du den küchenmeister	kennst du den küchenmeister		0.2000	5	
+1493298790791	2017-04-27T13:13:10.791Z	4	alexa starten	alexa starten		0.0000	2	
+1493298802755	2017-04-27T13:13:22.755Z	5	alexa kennst du einen küchenmeister	alexa kennst du den küchenmeister		0.2000	5	
+1493298819004	2017-04-27T13:13:39.004Z	6	undefined			1.0000	1	
+1493298838707	2017-04-27T13:13:58.707Z	7	alexa starte küchenmeister	alexa starte küchenmeister		0.0000	3	This request was sent to bakk
+1493298835672	2017-04-27T13:13:55.672Z	7	alexa starte küchenmeister	alexa		0.6667	3	
+1493298843332	2017-04-27T13:14:03.332Z	8	einen tafelspitz	suche tafelspitz		0.5000	2	This request was sent to bakk
+1493298847487	2017-04-27T13:14:07.487Z	9	ja	ja		0.0000	1	This request was sent to bakk
+1493298864942	2017-04-27T13:14:24.942Z	10	alexa starte küchenmeister	alexa starte küchenmeister		0.0000	3	This request was sent to bakk
+1493298869699	2017-04-27T13:14:29.699Z	11	eine griesnockerl suppe	nach griesnockerl suppe		0.3333	3	This request was sent to bakk
+1493298874253	2017-04-27T13:14:34.253Z	12	ja	ja		0.0000	1	This request was sent to bakk
+1493298907627	2017-04-27T13:15:07.627Z	13	alexa starte küchenmeister	alexa starte küchenmeister		0.0000	3	This request was sent to bakk
+1493298911882	2017-04-27T13:15:11.882Z	14	einen kaiserschmarrn	nach kaiserschmarrn		0.5000	2	This request was sent to bakk
+1493298916618	2017-04-27T13:15:16.618Z	15	ja gerne	ja gerne		0.0000	2	This request was sent to bakk
+1493298936896	2017-04-27T13:15:36.896Z	16	alexa öffne das programm küchenmeister	alexa öffne das programm küchenmeister		0.0000	5	
+1493298958402	2017-04-27T13:15:58.402Z	17	alexa ich möchte dass du den küchenmeister öffnest	alexa ich möchte dass du den küchenmeister öffnest		0.0000	8	
+1493298974211	2017-04-27T13:16:14.211Z	18	alexa ich möchte mit dem küchenmeister arbeiten	alexa ich möchte mit dem küssen ist arbeiten		0.2857	7	
+1493298995184	2017-04-27T13:16:35.184Z	19	alexa öffne den küchenmeister ich bräuchte das rezept von einem fiaker gulasch	alexa öffne küchenmeister ich bräuchte das rezept von einem fiaker gulasch		0.0833	12	
+1493299003479	2017-04-27T13:16:43.479Z	20	alexa öffne den küchenmeister	alexa öffne den küchenmeister		0.0000	4	This request was sent to bakk
+1493299008040	2017-04-27T13:16:48.040Z	21	ein fiakergulasch	nach fiakergulasch		0.5000	2	This request was sent to bakk
+1493299012469	2017-04-27T13:16:52.469Z	22	ja	ja		0.0000	1	This request was sent to bakk
+1493299071894	2017-04-27T13:17:51.894Z	23	alexa öffne den küchenmeister	alexa öffne den küchenmeister		0.0000	4	This request was sent to bakk
+1493299076109	2017-04-27T13:17:56.109Z	24	gemüselasagne	gemüselasagne		0.0000	1	This request was sent to bakk
+1493299084332	2017-04-27T13:18:04.332Z	25	pizza	wie bitte		2.0000	1	This request was sent to bakk
+1493299089771	2017-04-27T13:18:09.771Z	26	apfelkompott			1.0000	1	
+1493299092329	2017-04-27T13:18:12.329Z	26	apfelkompott	apfelkompott		0.0000	1	This request was sent to bakk
+1493299098749	2017-04-27T13:18:18.749Z	27	tomatensuppe			1.0000	1	
+1493299101651	2017-04-27T13:18:21.651Z	27	tomatensuppe	tomatensuppe		0.0000	1	This request was sent to bakk

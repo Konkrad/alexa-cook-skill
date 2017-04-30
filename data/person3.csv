@@ -1,0 +1,47 @@
+id,zeit,cluster,reference,hypothese,dialekt,wer,länge_ref,sended
+1493293068469,2017-04-27T11:37:48.469Z,0,alexa heute macht unser küchenmeister ein fiakergulasch,alexa,,0.8571,7,
+1493293073565,2017-04-27T11:37:53.565Z,0,heute macht unser küchenmeister ein fiakergulasch,heute macht unser küchenmeister in vier k. gulasch,,0.6667,6,
+1493293089739,2017-04-27T11:38:09.739Z,1,alexa unser küchenmeister macht heute ein fiakergulasch,unser küchenmeistern macht heute ein fiaker gulasch,,0.5714,7,
+1493293082710,2017-04-27T11:38:02.710Z,1,alexa unser küchenmeister macht heute ein fiakergulasch,alexa,,0.8571,7,
+1493293115075,2017-04-27T11:38:35.075Z,2,alexa ich bin heute der küchenmeister,ich bin heute der küchenmeister,,0.1667,6,
+1493293111665,2017-04-27T11:38:31.665Z,2,alexa ich bin heute der küchenmeister,alexa,,0.8333,6,
+1493293158035,2017-04-27T11:39:18.035Z,3,alexa der küchenmeister,alexa,,0.6667,3,
+1493293161076,2017-04-27T11:39:21.076Z,3,alexa der küchenmeister,der küchenmeister,,0.3333,3,
+1493293182692,2017-04-27T11:39:42.692Z,4,alexa ich bin der küchenmeister und heute gibt's einen kaiserschmarrn,alexa,alexa i bin der küchenmeister und heid gibt's an kaiserschmarrn,0.9000,10,
+1493293186083,2017-04-27T11:39:46.083Z,4,alexa ich bin der küchenmeister und heute gibt's einen kaiserschmarrn,ich bin der küchenmeister gibt's in kaiserschmarrn,alexa i bin der küchenmeister und heid gibt's an kaiserschmarrn,0.4000,10,
+1493293206218,2017-04-27T11:40:06.218Z,5,alexa starte küchenmeister,alexa,,0.6667,3,
+1493293208576,2017-04-27T11:40:08.576Z,5,starte küchenmeister,starte küchenmeister,,0.0000,2,This request was sent to bakk
+1493293211730,2017-04-27T11:40:11.730Z,6,heute möchte ich einen kaiserschmarrn kochen,,,1.0000,6,
+1493293215880,2017-04-27T11:40:15.880Z,6,heute möchte ich einen kaiserschmarrn kochen,heute möchte ich einen kaiserschmarrn kochen,,0.0000,6,This request was sent to bakk
+1493293223378,2017-04-27T11:40:23.378Z,7,einen kaiserschmarrn,einen kaiserschmarrn,,0.0000,2,This request was sent to bakk
+1493293227666,2017-04-27T11:40:27.666Z,8,ja,ja,,0.0000,1,This request was sent to bakk
+1493293255906,2017-04-27T11:40:55.906Z,9,alexa starte küchenmeister,alexa,,0.6667,3,
+1493293258315,2017-04-27T11:40:58.315Z,9,starte küchenmeister,starte küchenmeister,,0.0000,2,This request was sent to bakk
+1493293265395,2017-04-27T11:41:05.395Z,10,heute kochen wir grießnockerlsuppe,heute kochen wir grießnockerlsuppe,,0.0000,4,This request was sent to bakk
+1493293276130,2017-04-27T11:41:16.130Z,11,der küchenmeister möcht heute grießnockerlsuppe kochen,der küchenmeister möcht heute grießnockerlsuppe kochen,,0.0000,6,This request was sent to bakk
+1493293287129,2017-04-27T11:41:27.129Z,12,der küchenmeister ist heute,küche küchenmeister ist heute,,0.2500,4,This request was sent to bakk
+1493293296440,2017-04-27T11:41:36.440Z,13,griesnockerl suppe,nach griesnockerl suppe,,0.5000,2,This request was sent to bakk
+1493293301247,2017-04-27T11:41:41.247Z,14,richtig,richtig,,0.0000,1,This request was sent to bakk
+1493293319506,2017-04-27T11:41:59.506Z,15,alexa kannst du mir ein gedicht sagen,alexa,,0.8571,7,
+1493293322824,2017-04-27T11:42:02.824Z,15,alexa kannst du mir ein gedicht sagen,kannst du mir ein gedicht,,0.2857,7,
+1493293345129,2017-04-27T11:42:25.129Z,16,alexa starte küchenmeister,alexa,,0.6667,3,
+1493293348205,2017-04-27T11:42:28.205Z,16,starte küchenmeister,starte küchenmeister,,0.0000,2,This request was sent to bakk
+1493293351104,2017-04-27T11:42:31.104Z,17,dein lieblingsgericht,,,1.0000,2,
+1493293353929,2017-04-27T11:42:33.929Z,17,dein lieblingsgericht,dein lieblingsgericht,,0.0000,2,This request was sent to bakk
+1493293361191,2017-04-27T11:42:41.191Z,18,dein lieblingsgericht,,,1.0000,2,
+1493293363699,2017-04-27T11:42:43.699Z,18,dein lieblingsgericht,ein lied lieblingsgericht,,1.0000,2,This request was sent to bakk
+1493293371057,2017-04-27T11:42:51.057Z,19,einen schweinsbraten,nach schweinsbraten,,0.5000,2,This request was sent to bakk
+1493293376320,2017-04-27T11:42:56.320Z,20,ja ich möchte,ja ich möchte,,0.0000,3,This request was sent to bakk
+1493293385542,2017-04-27T11:43:05.542Z,21,einen schweinsbraten,einen schweinsbraten,,0.0000,2,This request was sent to bakk
+1493293389851,2017-04-27T11:43:09.851Z,22,ja,ja,,0.0000,1,This request was sent to bakk
+1493293420014,2017-04-27T11:43:40.014Z,23,alexa starte küchenmeister,alexa,,0.6667,3,
+1493293424732,2017-04-27T11:43:44.732Z,23,starte küchenmeister,starte küchenmeister,,0.0000,2,This request was sent to bakk
+1493293430428,2017-04-27T11:43:50.428Z,24,,nein,,inf,1,This request was sent to bakk
+1493293438130,2017-04-27T11:43:58.130Z,25,,nichts,,inf,1,This request was sent to bakk
+1493293445416,2017-04-27T11:44:05.416Z,26,alexa starte küchenmeister,alexa,,0.6667,3,
+1493293448766,2017-04-27T11:44:08.766Z,26,starte küchenmeister,starte küchenmeister,,0.0000,2,This request was sent to bakk
+1493293455544,2017-04-27T11:44:15.544Z,27,heut möchte ich kasnockerl,ich möchte ich cars noch mal,,1.0000,4,This request was sent to bakk
+1493293464187,2017-04-27T11:44:24.187Z,28,kasspatzal,cars spatzl,,2.0000,1,This request was sent to bakk
+1493293469951,2017-04-27T11:44:29.951Z,29,Grießsuppe,,,1.0000,1,
+1493293473382,2017-04-27T11:44:33.382Z,29,Grießsuppe,nach griesnockerl suppe,,3.0000,1,This request was sent to bakk
+1493293478497,2017-04-27T11:44:38.497Z,30,ja,ja,,0.0000,1,This request was sent to bakk

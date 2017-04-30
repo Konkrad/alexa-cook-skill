@@ -1,0 +1,37 @@
+id	zeit	cluster	reference	hypothese	dialekt	wer	länge_ref	sended
+1492779955745	2017-04-21T13:05:55.745Z	0	alexa wie ist das wetter in salzburg	alexa wie ist das wetter in salzburg		0.0000	7	
+1492779980047	2017-04-21T13:06:20.047Z	1	alexa danke	alexa danke		0.0000	2	
+1492780012197	2017-04-21T13:06:52.197Z	2	alexa starte diesen skill	alexa starte diesen skill		0.0000	4	
+1492780031680	2017-04-21T13:07:11.680Z	3	alexa starte diesen skill	alexa starte diesen skill		0.0000	4	
+1492780053693	2017-04-21T13:07:33.693Z	4	alexa starte haupt stadt	alexa starte haupt stadt		0.0000	4	This request was sent to Hauptstadt
+1492780061672	2017-04-21T13:07:41.672Z	5	wie heißt die hauptstadt von deutschland			1.0000	6	
+1492780065008	2017-04-21T13:07:45.008Z	5	wie heißt die hauptstadt von deutschland	wie heißt die hauptstadt von deutschland		0.0000	6	This request was sent to Hauptstadt
+1492780085769	2017-04-21T13:08:05.769Z	6	alexa was ist die hauptstadt von deutschland	alexa was ist die hauptstadt von deutschland		0.0000	7	
+1492780142229	2017-04-21T13:09:02.229Z	7	alexa welcher küchenmeister macht einen tafelspitz	alexa welche küchenmeister martin den tafelspitz		0.5000	6	
+1492780152853	2017-04-21T13:09:12.853Z	8	alexa			1.0000	1	
+1492780152009	2017-04-21T13:09:12.009Z	8	alexa 	alexa		0.0000	2	
+1492780156973	2017-04-21T13:09:16.973Z	8	alexa	Unknown		1.0000	1	
+1492780155513	2017-04-21T13:09:15.513Z	8	alexa			1.0000	1	
+1492780194071	2017-04-21T13:09:54.071Z	9	alexa frage den küchenmeister nach einem tafelspitz	alexa frage den küchenmeister nach einem tafelspitz		0.0000	7	
+1492780201676	2017-04-21T13:10:01.676Z	10	alexa frage küchenmeister nach tafelspitz	alexa		0.8000	5	
+1492780207886	2017-04-21T13:10:07.886Z	10	frage küchenmeister nach tafelspitz	frage küchenmeister nach tafelspitz		0.0000	4	This request was sent to bakk
+1492780213026	2017-04-21T13:10:13.026Z	11	ja	ja		0.0000	1	This request was sent to bakk
+1492780233217	2017-04-21T13:10:33.217Z	12	alexa frage küchenmeister nach kaiserschmarrn	alexa frage küchenmeister nach kaiserschmarrn		0.0000	5	This request was sent to bakk
+1492780239406	2017-04-21T13:10:39.406Z	13	nein	nein		0.0000	1	This request was sent to bakk
+1492780257014	2017-04-21T13:10:57.014Z	14	alexa frage küchenmeister nach fiakergulasch	alexa frage küchenmeister nahverkerh gulasch		0.4000	5	This request was sent to bakk
+1492780263050	2017-04-21T13:11:03.050Z	15	nein fiakergulasch	nach fiakergulasch		0.5000	2	This request was sent to bakk
+1492780273372	2017-04-21T13:11:13.372Z	16	frage küchenmeister nach fiaker gulasch	frage küchenmeister nach fiaker gulasch		0.0000	5	This request was sent to bakk
+1492780282404	2017-04-21T13:11:22.404Z	17	fiakergulasch	nach fiakergulasch		1.0000	1	This request was sent to bakk
+1492780286770	2017-04-21T13:11:26.770Z	18	ja	ja		0.0000	1	This request was sent to bakk
+1492780299942	2017-04-21T13:11:39.942Z	19	alexa frage küchenmeister nach griesnockerl suppe	alexa frage küchenmeister nach griesnockerl suppe		0.0000	6	This request was sent to bakk
+1492780304992	2017-04-21T13:11:44.992Z	20	ja bitte	ja bitte		0.0000	2	This request was sent to bakk
+1492780320405	2017-04-21T13:12:00.405Z	21	alexa frage küchenmeister nach spaghetti carbonare	alexa frage küchenmeister nach spaghetti carbonare		0.0000	6	This request was sent to bakk
+1492780328243	2017-04-21T13:12:08.243Z	22	spaghetti carbonare	spaghetti carbonare		0.0000	2	This request was sent to bakk
+1492780334804	2017-04-21T13:12:14.804Z	23	das gibt es nicht ok soll ich was anderes sagen		des gibt's ned ok soll i wos anderes sogn	1.0000	10	
+1492780336202	2017-04-21T13:12:16.202Z	23	das gibt es nicht ok soll ich was anderes sagen		des gibt's ned ok soll i wos anderes sogn	1.0000	10	
+1492780337313	2017-04-21T13:12:17.313Z	23	das gibt es nicht ok soll ich was anderes sagen		des gibt's ned ok soll i wos anderes sogn	1.0000	10	
+1492780341092	2017-04-21T13:12:21.092Z	23	das gibt es nicht ok soll ich was anderes sagen		des gibt's ned ok soll i wos anderes sogn	1.0000	10	
+1492780341379	2017-04-21T13:12:21.379Z	23	das gibt es nicht ok soll ich was anderes sagen		des gibt's ned ok soll i wos anderes sogn	1.0000	10	This request was sent to bakk
+1492780347350	2017-04-21T13:12:27.350Z	24	wart ich muss überlegen hot dog	gib mir die hot dog	wart i muas überlegn hot dog	0.6667	6	This request was sent to bakk
+1492780355298	2017-04-21T13:12:35.298Z	25	nudeln mit pesto	nach nudeln mit pesto		0.3333	3	This request was sent to bakk
+1492780362299	2017-04-21T13:12:42.299Z	26	pasto pesto	kannst du pesto		1.0000	2	This request was sent to bakk
