@@ -42,6 +42,7 @@ Promise.all(files)
                 id: document.id,
                 dialekt: document.dialekt,
                 skill: document.body.providerInfoDescription || "",
+                date: new Date(document.body.creationTimestamp).toISOString(),
                 cluster
             }
         })
@@ -82,8 +83,8 @@ Promise.all(files)
         }))
     })
     .then((documents) => {
-        console.log('id\tcluster\treference\thypothese\tdialekt\twer\tlänge_ref\tsended')
+        console.log('id\tzeit\tcluster\treference\thypothese\tdialekt\twer\tlänge_ref\tsended')
         documents.forEach((entry) => {
-        console.log(`${entry.id.split('#')[1]}\t${entry.cluster}\t${entry.transkript}\t${entry.alexa}\t${(entry.dialekt || "")}\t${entry.wer}\t${(entry.transkript || "").split(' ').length}\t${entry.skill}`)
+        console.log(`${entry.id.split('#')[1]}\t${entry.date}\t${entry.cluster}\t${entry.transkript}\t${entry.alexa}\t${(entry.dialekt || "")}\t${entry.wer}\t${(entry.transkript || "").split(' ').length}\t${entry.skill}`)
         })
     })
