@@ -1,0 +1,25 @@
+id,zeit,cluster,reference,hypothese,dialekt,wer,länge_ref,sended
+1493293824471,2017-04-27T11:50:24.471Z,0,alexa was haben wir heute für ein wetter noch mehr,noch mehr,alexa wos hamma den heid für ein wedda nu mehr,0.8000,10,
+1493293840907,2017-04-27T11:50:40.907Z,1,alexa was haben wir heute für ein sauwetter,alexa was habe den hell für sau,alexa was hamma den heid für ein sauwedda,0.6250,8,
+1493293854058,2017-04-27T11:50:54.058Z,2,alexa wann scheint den wieder die sonne,alexa wann scheint wieder die sonne,alexa wann scheint den wieda die sun,0.1429,7,
+1493293944314,2017-04-27T11:52:24.314Z,3,alexa was ist die hauptstadt von salzburg,alexa was ist die hauptstadt von salzburg,alexa was ist die hauptstadt von soizburg,0.0000,7,
+1493293963841,2017-04-27T11:52:43.841Z,4,alexa die hauptstadt von ungarn,die hauptstadt von ungarn,,0.2000,5,
+1493294023450,2017-04-27T11:53:43.450Z,5,alexa wie bereitet man einen tafelspitz zu,wie bereitet man ein tafelspitz zu,alexa wie bereitet man an tafelspitz zu,0.2857,7,
+1493294046832,2017-04-27T11:54:06.832Z,6,alexa vom küchenmeister das rezept vom tafelspitz,alexa vom küchenmeister das rezept vom tafelspitz,,0.0000,7,
+1493294076236,2017-04-27T11:54:36.236Z,7,alexa öffne küchenmeister,alexa öffne küchenmeister,,0.0000,3,This request was sent to bakk
+1493294082962,2017-04-27T11:54:42.962Z,8,einen tafelspitz,suche tafelspitz,,0.5000,2,This request was sent to bakk
+1493294087227,2017-04-27T11:54:47.227Z,9,ja,ja,,0.0000,1,This request was sent to bakk
+1493294107031,2017-04-27T11:55:07.031Z,10,alexa wie bereitet man ein fiakergulasch,wie bereitet man ein ferkel gulasch,,0.5000,6,
+1493294124842,2017-04-27T11:55:24.842Z,11,alexa küchenmeister fiakergulasch,alexa,,0.6667,3,
+1493294137385,2017-04-27T11:55:37.385Z,12,alexa küchenmeister fiakergulasch,alexa,,0.6667,3,
+1493294158051,2017-04-27T11:55:58.051Z,13,starte küchenmeister,starte küchenmeister,,0.0000,2,This request was sent to bakk
+1493294164173,2017-04-27T11:56:04.173Z,14,ein scharfes fiakergulasch,ein scharfes wieacker gulasch,,0.6667,3,This request was sent to bakk
+1493294172903,2017-04-27T11:56:12.903Z,15,ein scharfes fiakergulasch,nach fiakergulasch,,0.6667,3,This request was sent to bakk
+1493294177198,2017-04-27T11:56:17.198Z,16,ja,ja,,0.0000,1,This request was sent to bakk
+1493294200213,2017-04-27T11:56:40.213Z,17,nenne mir von küchenmeister,nenne mir von küchenmeister,,0.0000,4,This request was sent to bakk
+1493294208988,2017-04-27T11:56:48.988Z,18,eine griesnockerl suppe,nach griesnockerl suppe,eine griesnockl suppe,0.3333,3,This request was sent to bakk
+1493294213178,2017-04-27T11:56:53.178Z,19,ja,ja,,0.0000,1,This request was sent to bakk
+1493294236561,2017-04-27T11:57:16.561Z,20,küchenmeister,küchenmeister,,0.0000,1,
+1493294251006,2017-04-27T11:57:31.006Z,21,alexa verbinde mich mit küchenmeister,alexa verbinde mich mit küchenmeister,,0.0000,5,This request was sent to bakk
+1493294258313,2017-04-27T11:57:38.313Z,22,einen kaiserschmarrn,nach kaiserschmarrn,,0.5000,2,This request was sent to bakk
+1493294262365,2017-04-27T11:57:42.365Z,23,ja,ja,,0.0000,1,This request was sent to bakk
